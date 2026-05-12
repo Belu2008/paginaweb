@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destinos</title>
+    <link rel="stylesheet" href="estilospagina.css">
+     <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="div1">
+        <video autoplay muted loop playsinline>
+            <source src="paisaje.mp4.mp4"></source>
+        </video>
+        <h1 id="titulo-destino"> Destino UCC </h1>
+        <div class="overlay-oscuro"></div>
+        <div class="mi-panel-blanco">
+        <h2>SOLICITAR COTIZACIÓN</h2>
+        <br>
+        <form> 
+            <p> Nombre <input type="text" name="Nombre" placeholder="indique su nombre" required></p>
+            <br>
+            <p> Apellido <input type="text" name="Apellido" placeholder="indique su apellido" required></p>
+            <br>
+            <p> Clave UCC <input type="number" name="Clave" placeholder="indique su clave UCC" required></p>
+            <br>
+            <p> DNI <input type="number" name="DNI" placeholder="indique su DNI"required></p>
+            <br>
+            <p> Email <input type="email" name="Email" placeholder="indique su email"required></p>
+            <br>
+            <p> Destino que desea ir:
+                <select name="destino">
+                    <option> Uruguay</option>
+                    <option> Brasil</option>
+                    <option> Chile</option>
+                </select>
+            </p>
+            <br>
+            <br>
+            <p> <button name="boton">SOLICITAR COTIZACIÓN</button></p>
+        </form>
+        <a href="index.html" class="boton-volver">VOLVER AL INICIO</a>
+    </div>
+
+</body>
